@@ -1,0 +1,13 @@
+# Gradle
+/.gradle/
+# Android SDK
+/local.properties
+# IntelliJ
+/.idea/
+# Gradle Build
+/app/build/
+# Android Studio Signing APK
+/app/debug/
+/app/release/
+# Visual Studio Code
+/.vscode/
