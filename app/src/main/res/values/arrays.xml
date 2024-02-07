@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mod_host_opt">
+        <item>x.com</item>
+        <item>twitter.com</item>
+        <item>twittpr.com</item>
+        <item>nitter.1d4.us</item>
+        <item>fxtwitter.com</item>
+        <item>fixupx.com</item>
+        <item>vxtwitter.com</item>
+        <item>twiiit.com</item>
+    </array>
+</resources>
