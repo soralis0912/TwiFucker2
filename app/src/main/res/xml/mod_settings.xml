@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="Mod Settings" android:key="settings_page">
+    <PreferenceCategory android:title="Mod Settings">
+        <PreferenceScreen android:title="Premium Features" android:key="mod_premium_settings_menu" android:summary="Features related to Premium">
+            <PreferenceCategory android:title="Premium Features">
+                <SwitchPreference android:title="Download Video and gifs" android:key="mod_download_vid" android:defaultValue="false"/>
+                <SwitchPreference android:title="Enable Bookmark Folder" android:key="mod_bmf_enabled" android:summary="Server aided feature" android:defaultValue="false"/>
+                <SwitchPreference android:title="Mock Premium Subscription" android:key="mod_all_premium" android:summary="Might cause unexpected bugs and glitches. Requires App Restart" android:defaultValue="false"/>
+            </PreferenceCategory>
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Network Hooks" android:key="mod_twf_settings_menu" android:summary="">
+            <PreferenceCategory android:title="Network Hooks">
+                <SwitchPreference android:title="Remove Ads" android:key="mod_hide_ads" android:defaultValue="false"/>
+                <SwitchPreference android:title="Remove Who to Follow" android:key="mod_who_to_follow" android:defaultValue="false"/>
+                <SwitchPreference android:title="Remove Creators to Subscribe" android:key="mod_who_to_sub" android:defaultValue="false"/>
+                <SwitchPreference android:title="Remove More Posts" android:key="mod_hide_more_posts" android:defaultValue="false"/>
+                <SwitchPreference android:title="Remove Video Carousel" android:key="mod_vid_c" android:defaultValue="false"/>
+                <SwitchPreference android:title="Remove Recommended User" android:key="mod_hide_rec_acc" android:defaultValue="false"/>
+                <SwitchPreference android:title="Remove Sensitive Media Tag" android:key="mod_hide_sensitive_media" android:defaultValue="false"/>
+                <SwitchPreference android:title="Remove Live Threads" android:key="mod_hide_threads" android:defaultValue="false"/>
+            </PreferenceCategory>
+            <PreferenceCategory android:title="Faking">
+                <EditTextPreference android:title="Your Username" android:key="mod_my_name" android:summary="Enter your username (without @)" android:defaultValue=""/>
+                <SwitchPreference android:title="Fake Blue Tick" android:key="mod_is_blue" android:summary="Get Fake Blue Tick (Enter your username first)" android:defaultValue="false"/>
+                <EditTextPreference android:title="Following Count (Enter your username first)" android:key="mod_my_following_count" android:summary="" android:defaultValue="-1" android:inputType="number"/>
+                <EditTextPreference android:title="Follower Count (Enter your username first)" android:key="mod_my_followers_count" android:summary="" android:defaultValue="-1" android:inputType="number"/>
+                <EditTextPreference android:title="Fake Follows me back" android:key="mod_my_fname" android:summary="Enter usernames, with &apos;,&apos; separated, who should follow you (without @)" android:defaultValue=""/>
+            </PreferenceCategory>
+        </PreferenceScreen>
+        <PreferenceScreen android:title="UI" android:key="mod_ui_settings_menu" android:summary="Features related to UI">
+            <PreferenceCategory android:title="Features related to UI">
+                <SwitchPreference android:title="Chirp Font" android:key="mod_chirp_font" android:summary="Require App restart" android:defaultValue="false"/>
+                <SwitchPreference android:title="Remove For You" android:key="mod_hide_for_you" android:defaultValue="false"/>
+                <SwitchPreference android:title="Remove FAB Button" android:key="mod_hide_fab" android:defaultValue="false"/>
+                <SwitchPreference android:title="Remove FAB Menu Button" android:key="mod_hide_fab_btn" android:defaultValue="false"/>
+                <SwitchPreference android:title="Remove Banner" android:key="mod_hide_banner" android:defaultValue="false"/>
+                <SwitchPreference android:title="Remove Community Share" android:key="mod_community_share" android:summary="Remove quick share to community button on sharesheet" android:defaultValue="false"/>
+                <SwitchPreference android:title="Remove View Count" android:key="mod_hide_view" android:defaultValue="false"/>
+                <SwitchPreference android:title="Remove Affiliate badge" android:key="mod_hide_aff_badge" android:defaultValue="false"/>
+                <SwitchPreference android:title="Immersive video player" android:key="mod_immersive_player" android:summary="" android:defaultValue="false"/>
+                <EditTextPreference android:title="Fast Forward Step Count" android:key="mod_seek_value" android:summary="Fast forward step count in ms (1000ms = 1s) [Disable Immersive Player]" android:defaultValue="5000" android:inputType="number"/>
+            </PreferenceCategory>
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Privacy Features" android:key="mod_privacy_settings_menu" android:summary="Features related to privacy">
+            <PreferenceCategory android:title="Privacy Feature">
+                <SwitchPreference android:title="Remove Analytics from link (?t=)" android:key="mod_purify_link" android:defaultValue="false"/>
+                <SwitchPreference android:title="Remove Timestamp from link (?s=)" android:key="mod_purify_ts_link" android:defaultValue="false"/>
+                <ListPreference android:entries="@array/mod_host_opt" android:title="Change URL Host name" android:key="mod_url_host" android:summary="Changes host name of links, while sharing" android:defaultValue="x.com" android:dialogTitle="Host name" android:entryValues="@array/mod_host_opt"/>
+                <SwitchPreference android:title="No Shorten Url" android:key="mod_no_short_url" android:defaultValue="false"/>
+            </PreferenceCategory>
+        </PreferenceScreen>
+        <PreferenceScreen android:title="Misc" android:key="mod_misc_settings_menu" android:summary="">
+            <PreferenceCategory android:title="Misc">
+                <SwitchPreference android:title="Selectable Text" android:key="mod_is_selectable" android:summary="Make username, bio selectable" android:defaultValue="false"/>
+                <SwitchPreference android:title="Display Values without Rounding" android:key="mod_no_round_off" android:summary="Displays values without rounding off(K and M) " android:defaultValue="false"/>
+            </PreferenceCategory>
+        </PreferenceScreen>
+    </PreferenceCategory>
+</PreferenceScreen>
