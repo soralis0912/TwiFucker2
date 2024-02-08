@@ -3,7 +3,7 @@ package me.swak.myprefscreen;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceFragment;
-import com.twitter.android.R;
+import org.soralis_0912.twifucker2.R;
 
 /* loaded from: classes8.dex */
 public class SettingsActivity extends PreferenceActivity {
