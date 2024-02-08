@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## 概要
-開発破棄されたTwifuckerの代わりとなる新たなモジュールです。  
+開発破棄された[Twifucker](https://github.com/Dr-TSNG/TwiFucker)の遺志を受け継ぐ新たなモジュールです。  
 LSPosedとLSPatchの両方に対応しています。
 
 This is a new module that replaces Twifucker, which was developed and discarded.  
