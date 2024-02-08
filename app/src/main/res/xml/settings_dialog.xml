@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/settings_general">
+        <Preference
+            android:key="version"
+            android:title="@string/version_title" />
+        <Preference
+            android:key="about"
+            android:summary="@string/about_summary"
+            android:title="@string/about_title" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="show_toast"
+            android:summary="@string/show_toast_summary"
+            android:title="@string/show_toast_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_main">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="use_legacy_hook"
+            android:summary="@string/use_legacy_hook_summary"
+            android:title="@string/use_legacy_hook" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="disable_promoted_content"
+            android:summary="@string/disable_promoted_content_summary"
+            android:title="@string/disable_promoted_content_title" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="disable_promoted_user"
+            android:summary="@string/disable_promoted_user_summary"
+            android:title="@string/disable_promoted_user_title" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="disable_promoted_trends"
+            android:summary="@string/disable_promoted_trends_summary"
+            android:title="@string/disable_promoted_trends_title" />
+        <SwitchPreference
+            android:key="disable_sensitive_media_warning"
+            android:summary="@string/disable_sensitive_media_warning_summary"
+            android:title="@string/disable_sensitive_media_warning_title" />
+        <SwitchPreference
+            android:key="disable_recommended_users"
+            android:summary="@string/disable_recommended_users_summary"
+            android:title="@string/disable_recommended_users" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_extra">
+        <SwitchPreference
+            android:key="disable_who_to_follow"
+            android:title="@string/disable_who_to_follow_title" />
+        <SwitchPreference
+            android:key="disable_who_to_subscribe"
+            android:title="@string/disable_who_to_subscribe_title" />
+        <SwitchPreference
+            android:key="disable_topics_to_follow"
+            android:title="@string/disable_topics_to_follow_title" />
+        <SwitchPreference
+            android:key="disable_threads"
+            android:summary="@string/disable_threads_summary"
+            android:title="@string/disable_threads" />
+        <SwitchPreference
+            android:key="disable_tweet_detail_related_tweets"
+            android:title="@string/disable_tweet_detail_related_tweets" />
+        <SwitchPreference
+            android:key="disable_video_carousel"
+            android:summary="@string/disable_video_carousel_summary"
+            android:title="@string/disable_video_carousel" />
+        <SwitchPreference
+            android:key="disable_banner_view"
+            android:summary="@string/disable_banner_view_summary"
+            android:title="@string/disable_banner_view" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_experimental">
+        <SwitchPreference
+            android:key="enable_download_hook"
+            android:summary="@string/enable_download_hook_summary"
+            android:title="@string/enable_download_hook" />
+        <Preference
+            android:dependency="enable_download_hook"
+            android:key="download_directory"
+            android:title="@string/download_directory" />
+        <SwitchPreference
+            android:key="disable_url_redirect"
+            android:summary="@string/disable_url_redirect_summary"
+            android:title="@string/disable_url_redirect" />
+        <Preference
+            android:key="hide_drawer_items"
+            android:summary="@string/hide_drawer_items_summary"
+            android:title="@string/hide_drawer_items" />
+        <Preference
+            android:key="hide_bottom_navbar_items"
+            android:summary="@string/hide_bottom_navbar_items_summary"
+            android:title="@string/hide_bottom_navbar_items" />
+        <SwitchPreference
+            android:key="hide_for_you_tab"
+            android:title="@string/hide_for_you_tab" />
+        <Preference
+            android:key="feature_switch"
+            android:summary="@string/feature_switch_summary"
+            android:title="@string/feature_switch" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_logging">
+        <SwitchPreference
+            android:key="enable_log"
+            android:summary="@string/enable_log_summary"
+            android:title="@string/enable_log" />
+        <Preference
+            android:dependency="enable_log"
+            android:key="export_log"
+            android:title="@string/export_log" />
+        <Preference
+            android:dependency="enable_log"
+            android:key="export_json_log"
+            android:summary="@string/export_json_log_summary"
+            android:title="@string/export_json_log" />
+        <Preference
+            android:key="clear_log"
+            android:title="@string/clear_log" />
+        <Preference
+            android:enabled="false"
+            android:key="delete_databases"
+            android:summary="@string/delete_databases_summary"
+            android:title="@string/delete_databases" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
