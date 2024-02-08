@@ -10,8 +10,19 @@ LSPosedとLSPatchの両方に対応しています。
 This is a new module that replaces Twifucker, which was developed and discarded.  
 Both LSPosed and LSPatch are supported.
 
+**NOW DEVELOPING…**
+
 ## 機能
-へんしゅうちゅう
+基礎機能はTwifuckerと同じです(広告など余計なコンテンツの排除、リダイレクトやスレッド表示の無効化など)。 
+- プレミアム機能の一部有効化
+  ・ダウンロード機能とナビゲーションバー、アプリアイコンのカスタムが使えるようになります
+- おすすめ(For You)タブの無効化
+- 英字にシステムフォントを適用(Chirpフォントの無効化)
+- ツイートボタンを押した際のメニュー(スペース、画像、GIF 画像の選択肢)の無効化
+- インプレッション数の排除、バッジ付きアカウントの非表示
+- 共有リンクの選択([fxtwitter.com](https://github.com/FixTweet/FxTwitter)、[vxtwitter.com](https://github.com/dylanpdx/BetterTwitFix)等が選択できるようになります)
+
+and etc…
 
 ## 問題の報告
 新たなバグや修正方法を見つけた場合は、[ご報告](https://github.com/soralis0912/TwiFucker2/issues/new/choose)お願い致します。
