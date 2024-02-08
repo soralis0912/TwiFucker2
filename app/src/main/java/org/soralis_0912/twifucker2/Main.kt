@@ -1,4 +1,4 @@
-package icu.nullptr.twifucker.hook
+package org.soralis_0912.twifucker2
 
 import android.app.Activity
 import android.app.Application
