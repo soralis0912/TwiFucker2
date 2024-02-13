@@ -9,17 +9,17 @@
 This is a new module that replaces [**TwiFucker**](https://github.com/Dr-TSNG/TwiFucker), which was developed and discarded.  
 Both [LSPosed](https://github.com/LSPosed/LSPosed) and [LSPatch](https://github.com/LSPosed/LSPatch) are going to be supported.
 
-**NOW DEVELOPING…**
+**NOW BEING DEVELOPED**
 
-## Feature (Planning)
+## Features (Planning)
 The basic functionality is the same as TwiFucker (elimination of ads and other extraneous content, disabling redirects and threading, etc.).
 - Partial activation of premium features  
-  ・Download functionality, navigation bar, and custom app icons will be available
-- Disable For You Tab
-- Use system fonts with alphabet(Disable Chirp Font)
-- Disable menu (space, image and GIF image options) when pressing the tweet button
-- Elimination of the count of impressions
-- Select a shared link([fxtwitter.com](https://github.com/FixTweet/FxTwitter), [vxtwitter.com](https://github.com/dylanpdx/BetterTwitFix) and others)
+  ・Download functionality, navigation bar, and custom app icons will be available.
+- Disable For You Tab.
+- Use system fonts with alphabet(Disable Chirp font).
+- Disable menu (space, image and GIF image options) when pressing the tweet button.
+- Elimination of the count of impressions.
+- Select a shared link([fxtwitter.com](https://github.com/FixTweet/FxTwitter), [vxtwitter.com](https://github.com/dylanpdx/BetterTwitFix) and others).
 
 and things like that.
 
