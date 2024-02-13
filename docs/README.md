@@ -2,8 +2,8 @@
 
 日本語 | [English](README_en.md)
 
-[![Latest Release](https://img.shields.io/github/v/release/soralis0912/TwiFucker2?label=latest)](https://github.com/Chipppppppppp/LIME/releases/latest)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Latest Release](https://img.shields.io/github/v/release/soralis0912/TwiFucker2?label=latest)](https://github.com/soralis0912/TwiFucker2/releases/latest)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/soralis0912/TwiFucker2/blob/master/LICENSE)
 
 ## 概要
 開発破棄された [**TwiFucker**](https://github.com/Dr-TSNG/TwiFucker) の遺志を受け継ぐ新たなモジュールです。  
