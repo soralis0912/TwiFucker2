@@ -12,8 +12,8 @@ import com.github.kyuubiran.ezxhelper.finders.MethodFinder
 import icu.nullptr.twifucker.exceptions.CachedHookNotFound
 import icu.nullptr.twifucker.getId
 import icu.nullptr.twifucker.hook.BaseHook
-import icu.nullptr.twifucker.hook.HookEntry.Companion.dexKit
-import icu.nullptr.twifucker.hook.HookEntry.Companion.loadDexKit
+import org.soralis_0912.twifucker2.HookEntry.Companion.dexKit
+import org.soralis_0912.twifucker2.HookEntry.Companion.loadDexKit
 import icu.nullptr.twifucker.hostAppLastUpdate
 import icu.nullptr.twifucker.moduleLastModify
 import icu.nullptr.twifucker.modulePrefs

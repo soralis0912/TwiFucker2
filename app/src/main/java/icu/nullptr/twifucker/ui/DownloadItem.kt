@@ -6,7 +6,7 @@ import android.util.TypedValue
 import android.view.ViewGroup.LayoutParams.WRAP_CONTENT
 import android.widget.ImageButton
 import android.widget.TextView
-import icu.nullptr.twifucker.R
+import org.soralis_0912.twifucker2.R
 
 class DownloadItem(context: Context) : CustomLayout(context) {
 

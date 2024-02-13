@@ -22,8 +22,10 @@ import com.github.kyuubiran.ezxhelper.misc.Utils.restartHostApp
 import icu.nullptr.twifucker.*
 import icu.nullptr.twifucker.hook.DrawerNavbarHook.bottomNavbarItems
 import icu.nullptr.twifucker.hook.DrawerNavbarHook.drawerItems
-import icu.nullptr.twifucker.hook.HookEntry.Companion.isLogcatProcessInitialized
-import icu.nullptr.twifucker.hook.HookEntry.Companion.logcatProcess
+import org.soralis_0912.twifucker2.BuildConfig
+import org.soralis_0912.twifucker2.HookEntry.Companion.isLogcatProcessInitialized
+import org.soralis_0912.twifucker2.HookEntry.Companion.logcatProcess
+import org.soralis_0912.twifucker2.R
 
 class SettingsDialog(context: Context) : AlertDialog.Builder(context) {
 

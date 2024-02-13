@@ -9,8 +9,8 @@ import de.robv.android.xposed.XC_MethodHook
 import icu.nullptr.twifucker.afterMeasure
 import icu.nullptr.twifucker.exceptions.CachedHookNotFound
 import icu.nullptr.twifucker.forEach
-import icu.nullptr.twifucker.hook.HookEntry.Companion.dexKit
-import icu.nullptr.twifucker.hook.HookEntry.Companion.loadDexKit
+import org.soralis_0912.twifucker2.HookEntry.Companion.dexKit
+import org.soralis_0912.twifucker2.HookEntry.Companion.loadDexKit
 import icu.nullptr.twifucker.hostAppLastUpdate
 import icu.nullptr.twifucker.moduleLastModify
 import icu.nullptr.twifucker.modulePrefs

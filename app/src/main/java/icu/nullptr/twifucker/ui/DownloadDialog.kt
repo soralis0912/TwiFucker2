@@ -19,7 +19,7 @@ import com.github.kyuubiran.ezxhelper.AndroidLogger
 import com.github.kyuubiran.ezxhelper.EzXHelper.addModuleAssetPath
 import com.github.kyuubiran.ezxhelper.EzXHelper.appContext
 import com.github.kyuubiran.ezxhelper.Log
-import icu.nullptr.twifucker.R
+import org.soralis_0912.twifucker2.R
 import icu.nullptr.twifucker.modulePrefs
 import java.io.File
 import java.io.FileOutputStream

@@ -5,6 +5,7 @@ import com.github.kyuubiran.ezxhelper.HookFactory.`-Static`.createHook
 import com.github.kyuubiran.ezxhelper.finders.MethodFinder
 import icu.nullptr.twifucker.afterMeasure
 import java.lang.ref.WeakReference
+import org.soralis_0912.twifucker2.HookEntry
 
 object ActivityHook : BaseHook() {
     override val name: String

@@ -15,7 +15,7 @@ public class Utils {
     public static String getPref(String str, String str2) {
         try {
             return PreferenceManager.getDefaultSharedPreferences(StartApp.ctx).getString(str, str2);
-        } catch (Exception e) {
+        } catch (ClassCastException e) {
             logger(e.toString());
             return str2;
         }
@@ -25,7 +25,7 @@ public class Utils {
     public static boolean getPref(String str, boolean z) {
         try {
             return PreferenceManager.getDefaultSharedPreferences(StartApp.ctx).getBoolean(str, z);
-        } catch (Exception e) {
+        } catch (ClassCastException e) {
             logger(e.toString());
             return z;
         }

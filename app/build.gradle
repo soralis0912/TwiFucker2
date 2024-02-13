@@ -1,14 +1,16 @@
 plugins {
     id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
 }
 
 android {
     namespace 'org.soralis_0912.twifucker2'
     compileSdk 33
-    ndkVersion = "25.2.9519653"
+    ndkVersion "25.2.9519653"
 
     defaultConfig {
         minSdk 26
+        //noinspection OldTargetApi
         targetSdk 33
         versionCode 1
         versionName "1.1"
@@ -28,14 +30,34 @@ android {
             keyPassword System.getenv('KEY_PASSWORD')
         }
     }
+    buildFeatures {
+        buildConfig true
+        prefab true
+    }
+    androidResources {
+        additionalParameters "--allow-reserved-package-id", "--package-id", "0x64"
+    }
+    externalNativeBuild{
+        ndkBuild {
+            path "src/main/cpp/Android.mk"
+        }
+    }
+    packagingOptions {
+        jniLibs {
+            useLegacyPackaging = true
+        }
+    }
     buildTypes {
         debug {
             minifyEnabled false
+            multiDexEnabled false
             proguardFiles += 'proguard-rules.pro'
             signingConfig signingConfigs.android
         }
         release {
-            minifyEnabled false
+            minifyEnabled true
+            shrinkResources true
+            multiDexEnabled false
             proguardFiles += 'proguard-rules.pro'
             if (file('release.jks').exists()) {
                 signingConfig signingConfigs.release
@@ -46,10 +68,21 @@ android {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
     }
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_17
+    }
 }
 
 dependencies {
     compileOnly 'de.robv.android.xposed:api:82'
     compileOnly 'de.robv.android.xposed:api:82:sources'
     compileOnly files('libs/twitter.jar')
+    implementation 'androidx.documentfile:documentfile:1.0.1'
+    implementation 'androidx.recyclerview:recyclerview:1.3.2'
+    //noinspection GradleDependency
+    implementation 'org.luckypray:DexKit:1.1.8'
+    implementation 'com.github.kyuubiran:EzXHelper:2.0.8'
+    implementation 'com.tencent:mmkv:1.3.3'
+    implementation 'dev.rikka.ndk.thirdparty:cxx:1.2.0'
+    implementation 'dev.rikka.ndk.thirdparty:nativehelper:1.0.1'
 }

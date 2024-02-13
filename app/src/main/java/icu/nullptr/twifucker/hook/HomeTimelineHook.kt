@@ -8,8 +8,8 @@ import dalvik.bytecode.Opcodes
 import de.robv.android.xposed.XC_MethodHook
 import icu.nullptr.twifucker.beforeMeasure
 import icu.nullptr.twifucker.exceptions.CachedHookNotFound
-import icu.nullptr.twifucker.hook.HookEntry.Companion.dexKit
-import icu.nullptr.twifucker.hook.HookEntry.Companion.loadDexKit
+import org.soralis_0912.twifucker2.HookEntry.Companion.dexKit
+import org.soralis_0912.twifucker2.HookEntry.Companion.loadDexKit
 import icu.nullptr.twifucker.hostAppLastUpdate
 import icu.nullptr.twifucker.moduleLastModify
 import icu.nullptr.twifucker.modulePrefs
@@ -43,7 +43,6 @@ object HomeTimelineHook : BaseHook() {
         MethodFinder.fromClass(homeTimelineTabClassName).filterByName("apply").first().createHook {
             beforeMeasure(name) { param ->
                 if (param.args[0] !is List<*>) return@beforeMeasure
-		val c =
                     FieldFinder.fromClass(homeTimelineTabClassName).filterByType(Int::class.java)
                         .first().getInt(param.thisObject)
                 unhook = MethodFinder.fromClass(homeTimelineListClassName).filterByName(

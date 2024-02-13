@@ -8,7 +8,7 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import icu.nullptr.twifucker.R
+import org.soralis_0912.twifucker2.R
 
 class FeatureSwitchView(context: Context) : CustomLayout(context) {
 

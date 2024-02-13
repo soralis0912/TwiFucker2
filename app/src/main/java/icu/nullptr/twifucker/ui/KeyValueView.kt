@@ -7,7 +7,7 @@ import android.view.ViewGroup.LayoutParams.WRAP_CONTENT
 import android.view.inputmethod.InputMethodManager
 import android.widget.EditText
 import android.widget.Switch
-import icu.nullptr.twifucker.R
+import org.soralis_0912.twifucker2.R
 
 class KeyValueView(context: Context) : CustomLayout(context) {
     var isBoolean: Boolean = true

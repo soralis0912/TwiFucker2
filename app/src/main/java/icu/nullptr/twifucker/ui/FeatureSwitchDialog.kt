@@ -8,7 +8,7 @@ import android.view.ViewGroup.LayoutParams.MATCH_PARENT
 import android.view.ViewGroup.LayoutParams.WRAP_CONTENT
 import androidx.recyclerview.widget.RecyclerView
 import com.github.kyuubiran.ezxhelper.EzXHelper.addModuleAssetPath
-import icu.nullptr.twifucker.R
+import org.soralis_0912.twifucker2.R
 import icu.nullptr.twifucker.modulePrefs
 import org.json.JSONArray
 

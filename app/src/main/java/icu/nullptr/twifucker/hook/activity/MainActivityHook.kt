@@ -7,7 +7,7 @@ import com.github.kyuubiran.ezxhelper.HookFactory.`-Static`.createHook
 import com.github.kyuubiran.ezxhelper.Log
 import com.github.kyuubiran.ezxhelper.finders.MethodFinder
 import de.robv.android.xposed.XC_MethodHook.Unhook
-import icu.nullptr.twifucker.BuildConfig
+import org.soralis_0912.twifucker2.BuildConfig
 import icu.nullptr.twifucker.afterMeasure
 import icu.nullptr.twifucker.hook.BaseHook
 import icu.nullptr.twifucker.modulePrefs
