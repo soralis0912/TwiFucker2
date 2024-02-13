@@ -6,6 +6,7 @@ import android.preference.PreferenceFragment;
 import org.soralis_0912.twifucker2.R;
 
 /* loaded from: classes8.dex */
+@Deprecated
 public class SettingsActivity extends PreferenceActivity {
     @Override // android.preference.PreferenceActivity, android.app.Activity
     protected void onCreate(Bundle bundle) {

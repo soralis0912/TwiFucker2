@@ -1,1 +1,2 @@
 -keep class de.robv.android.xposed.**
+-ignorewarnings

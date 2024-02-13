@@ -12,6 +12,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 /* loaded from: classes8.dex */
+@Deprecated
 public class JsonHooks {
     static boolean LOG;
     static boolean REMOVE_PROMOTED_POSTS = Pref.isHideAdsEnabled();

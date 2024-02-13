@@ -4,6 +4,7 @@ import com.twitter.model.json.core.JsonUrlEntity;
 import com.twitter.model.json.timeline.urt.JsonTimelineEntry;
 
 /* loaded from: classes8.dex */
+@Deprecated
 public class Hooks {
     public static boolean HIDE_ADS = Pref.isHideAdsEnabled();
     public static boolean HIDE_VFU = Pref.isHideVidCEnabled();

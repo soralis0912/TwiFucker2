@@ -5,6 +5,7 @@ import android.preference.PreferenceManager;
 import android.util.Log;
 
 /* loaded from: classes8.dex */
+@Deprecated
 public class Utils {
     public static Uri changeHost(Uri uri) {
         return Uri.parse("https://" + Pref.urlHostName() + uri.getPath());

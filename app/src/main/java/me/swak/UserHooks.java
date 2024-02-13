@@ -3,6 +3,7 @@ package me.swak;
 import com.twitter.api.model.json.core.RestJsonTwitterUser;
 
 /* loaded from: classes8.dex */
+@Deprecated
 public class UserHooks {
     static boolean FAKE_BLUE = Pref.isFakeBlue();
     static String MYNAME = Pref.getUsername();

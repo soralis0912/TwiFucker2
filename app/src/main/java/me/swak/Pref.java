@@ -1,6 +1,7 @@
 package me.swak;
 
 /* loaded from: classes8.dex */
+@Deprecated
 public class Pref {
     public static boolean isBMFolderEnabled() {
         return Utils.getPref("mod_bmf_enabled", false);

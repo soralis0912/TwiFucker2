@@ -5,6 +5,7 @@ plugins {
 android {
     namespace 'org.soralis_0912.twifucker2'
     compileSdk 33
+    ndkVersion = "25.2.9519653"
 
     defaultConfig {
         minSdk 26
@@ -50,4 +51,5 @@ android {
 dependencies {
     compileOnly 'de.robv.android.xposed:api:82'
     compileOnly 'de.robv.android.xposed:api:82:sources'
+    compileOnly files('libs/twitter.jar')
 }
