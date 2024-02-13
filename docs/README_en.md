@@ -2,8 +2,8 @@
 
 [日本語](README.md) | English
 
-[![Latest Release](https://img.shields.io/github/v/release/soralis0912/TwiFucker2?label=latest)](https://github.com/Chipppppppppp/LIME/releases/latest)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Latest Release](https://img.shields.io/github/v/release/soralis0912/TwiFucker2?label=latest)](https://github.com/Chipppppppppp/soralis0912/TwiFucker2/latest)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/soralis0912/TwiFucker2/blob/master/LICENSE)
 
 ## About
 This is a new module that replaces [**TwiFucker**](https://github.com/Dr-TSNG/TwiFucker), which was developed and discarded.  
