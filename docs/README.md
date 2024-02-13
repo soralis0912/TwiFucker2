@@ -1,4 +1,4 @@
-# TwiFucker2: Next Feature module for Twitter
+# TwiFucker2: Next features module for Twitter
 
 日本語 | [English](README_en.md)
 
@@ -11,7 +11,7 @@
 
 **NOW DEVELOPING…**
 
-## 機能(よてい)
+## 機能 (予定)
 基礎機能はTwiFuckerと同じです(広告など余計なコンテンツの排除、リダイレクトやスレッド表示の無効化など)。
 - プレミアム機能の一部有効化  
   ・ダウンロード機能とナビゲーションバー、アプリアイコンのカスタムが使えるようになります
@@ -21,14 +21,14 @@
 - インプレッション数の排除、~~バッジ付きアカウントの非表示~~
 - 共有リンク( [fxtwitter.com](https://github.com/FixTweet/FxTwitter), [vxtwitter.com](https://github.com/dylanpdx/BetterTwitFix) 等)の選択
 
-and etc…
+その他諸々…
 
 <!--
 ## 問題の報告
 新たなバグや修正方法を見つけた場合は、[ご報告](https://github.com/soralis0912/TwiFucker2/issues/new/choose)お願い致します。
 -->
 
-## Credits
+## 謝辞
 - [Dr-TSNG](https://github.com/Dr-TSNG)：TwiFuckerの開発者。
 - [EzXHelper](https://github.com/KyuubiRan/EzXHelper)：利用ライブラリ
 - [therealswak](https://t.me/therealswak)：このモジュールの開発起点となる [**MOD APK**](https://t.me/TwiFuckerDiscussion/26250) を開発して頂きました。Thanks so much!!
