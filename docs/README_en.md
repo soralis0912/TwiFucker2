@@ -1,4 +1,4 @@
-# TwiFucker2: Next Feature module for Twitter
+# TwiFucker2: Next features module for Twitter
 
 [日本語](README.md) | English
 
@@ -11,7 +11,7 @@ Both [LSPosed](https://github.com/LSPosed/LSPosed) and [LSPatch](https://github.
 
 **NOW DEVELOPING…**
 
-## Feature(Planning)
+## Feature (Planning)
 The basic functionality is the same as TwiFucker (elimination of ads and other extraneous content, disabling redirects and threading, etc.).
 - Partial activation of premium features  
   ・Download functionality, navigation bar, and custom app icons will be available
@@ -21,7 +21,7 @@ The basic functionality is the same as TwiFucker (elimination of ads and other e
 - Elimination of the count of impressions
 - Select a shared link([fxtwitter.com](https://github.com/FixTweet/FxTwitter), [vxtwitter.com](https://github.com/dylanpdx/BetterTwitFix) and others)
 
-and etc…
+and things like that.
 
 <!--
 ## Report Problem
