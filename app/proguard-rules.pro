@@ -1,2 +1,3 @@
 -keep class org.soralis_0912.twifucker2.HookEntry
 -keep class com.tencent.mmkv.MMKV { *; }
+-ignorewarnings
